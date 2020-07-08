@@ -8,5 +8,5 @@ const StudentSchema = new Schema({ //actual schema, the which we require like na
 
 const Student = mongoose.model('student', StudentSchema); //make entry into the database
 
-//export
+//export this file
 module.exports = Student;
